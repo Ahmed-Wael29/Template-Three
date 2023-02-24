@@ -125,6 +125,11 @@ ul {
   bottom: 100px;
   left: 0;
 }
+@media (max-width: 767px) {
+  .dots {
+    display: none;
+  }
+}
 .arrow {
   position: fixed;
   top: 660px;
